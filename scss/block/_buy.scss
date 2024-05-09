@@ -1,0 +1,58 @@
+.buy__block{
+    display: flex;
+    justify-content: space-between;
+    padding: 33px 110px 43px 97px;
+    border-radius: 22px;
+    background-color: #f6f6f6;
+    align-items: center;
+    margin-bottom: 16%;
+}
+
+.buy__title{
+    font-weight: 700;
+    font-size: 36px;
+    color: #1e1d1d;
+}
+
+.buy__text{
+    margin-top: 12px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #8b8e99;
+}
+
+.buy__search{
+    margin-top: 47px;
+    background-color: #fff;
+    padding: 7px 9px 8px 19px;
+    border-radius: 15px;
+    margin-left: 11px;
+}
+
+.buy__input{
+    border: 1px solid #d9d9d9;
+    background-color: #fff;
+    padding: 6px 9px;
+    width: 300px;
+    outline: none;
+}
+
+.buy__btn{
+    padding: 10px 8px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 125%;
+    text-align: center;
+    color: #fff;
+    background-color: #0067C0;
+    transition: .25s;
+}
+.buy__btn:hover{
+    cursor: pointer;
+}
+.buy__btn:active{
+    background-color:cornflowerblue;
+    transform: scale(.95);
+}

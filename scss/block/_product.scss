@@ -1,0 +1,112 @@
+.product__box{
+    margin-top: 15%;
+    padding-bottom: 18%;
+}
+
+.product__title{
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #3858d6;
+}
+
+.product__subtitle{
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: #1e1d1d;
+}
+
+.product__block{
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product__twoBlock{
+    margin-bottom: 69px;
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product__img{
+    padding: 29px 43px 27px 41px;
+    background-color:  #f6f6f6;;
+}
+
+.product__name{
+    margin-top: 11px;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: #1e1d1d;
+}
+
+.smartprice::before{
+    content: " ";
+    display: flex;
+    align-items: center;
+    margin-right: 11px;
+    display: inline-block;
+    width: 160px;
+    height: 19px;
+    background-repeat: no-repeat;
+    background-image: url('../img/dontpricetwo.png');
+    background-position: left;
+}
+
+.dontprice::before{
+    content: " ";
+    display: flex;
+    align-items: center;
+    margin-right: 11px;
+    text-align: center;
+    display: inline-block;
+    width: 160px;
+    height: 19px;
+    background-repeat: no-repeat;
+    background-image: url('../img/dontprice.png');
+    background-position: left;
+}
+
+.product__pric{
+    margin-top: 8px;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 131%;
+    color: #000;
+}
+
+.product__stars{
+    margin-left: 30%;
+    margin-top: 8px;
+}
+
+.fitbitt{
+    text-align: center;
+}
+
+.product__desc{
+    text-align: center;
+}
+
+.product__btn{
+    padding: 9px  25px ;
+    background-color: #3858d6;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    transition: .25s;
+}
+
+.product__btn:hover{
+    cursor: pointer;
+}
+.product__btn:active{
+    background-color:cornflowerblue;
+    transform: scale(.95);
+}
